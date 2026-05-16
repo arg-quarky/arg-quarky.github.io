@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Arg_quarky's Page</title>
+    <title>My Socials</title>
     <style>
         * {
             margin: 0;
@@ -46,18 +46,19 @@
 </head>
 <body>
     <div class="intro-screen">
-        <h1>Arg_quarky's Page</h1>
+        <h1>My Socials</h1>
     </div>
 </body>
 </html>
 <style>
     .button-container {
         position: fixed;
-        bottom: 20px;
+        top: 57%;
         left: 50%;
-        transform: translateX(-50%);
+        transform: translate(-50%, -50%);
         display: flex;
         gap: 1rem;
+        flex-direction: row;
     }
     
     button {
@@ -77,20 +78,16 @@
 </style>
 
 <div class="button-container">
-    <button onclick="redirectToMiivaGunner()">MiivaGunner ToS</button>
-    <button onclick="redirectToSocials()">My Socials</button>
-     <button onclick="redirectToGames()">Games</button>
+    <button onclick="redirectToMiivaGunner()">MiivaGunner</button>
+    <button onclick="redirectToGames()">My Channel</button>
 </div>
 
 <script>
     function redirectToMiivaGunner() {
-        window.location.href = '/MiivaGunner/';
+        window.location.href = 'https://www.youtube.com/@MiivaGunner';
     }
 
-        function redirectToGames() {
-            window.location.href = '/games/';
-    }
-    function redirectToSocials() {
-            window.location.href = '/Socials/';
+    function redirectToGames() {
+        window.location.href = 'https://www.youtube.com/@Arg_quarky';
     }
 </script>
